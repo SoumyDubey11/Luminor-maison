@@ -1,101 +1,104 @@
-Luminor Maison
+# Luminor Maison
 
 A modern and responsive interior design website developed using PHP, MySQL, Bootstrap, JavaScript, HTML, and CSS.
-The project includes a complete user system, dynamic admin panel, wishlist functionality, session-based authentication, and content management features.
 
-Live Website
+The project includes:
+- User authentication system
+- Dynamic admin panel
+- Wishlist functionality
+- Session-based authentication
+- Dynamic content management
+- Responsive UI design
 
-Luminor Maison Live Website
+---
 
-Project Overview
+## 🌐 Live Website
 
-Luminor Maison is a full-stack interior design web application created to showcase modern interior designs and provide users with an interactive browsing experience.
+[Visit Luminor Maison](https://myinterior.great-site.net/backend/user_login.php)
 
-The website contains both frontend and backend functionality where users can explore interior designs, manage wishlists, and interact with dynamic content, while the admin panel allows complete management of website data and images.
+---
 
-The project focuses on responsive UI design, dynamic database integration, secure session handling, and user-friendly navigation.
+## 📖 Project Overview
 
-Features
-User Registration & Login System
-Session-Based Authentication
-Wishlist Functionality
-Dynamic Interior Design Pages
-Responsive User Interface
-Admin Dashboard
-Dynamic Content Management
-Image Upload & Management
-Category & Design Filters
-MySQL Database Integration
-Secure PHP Backend
-Mobile-Friendly Layout
-Bootstrap Responsive Components
-Organized Folder Structure
-Dynamic Image Rendering
-Protected Admin Access
-Technologies Used
-Frontend
-HTML5
-CSS3
-Bootstrap 5
-JavaScript
-Backend
-PHP
-Database
-MySQL
-Hosting
-InfinityFree
-Folder Structure
+Luminor Maison is a full-stack interior design web application created to showcase modern interior designs with an interactive and user-friendly experience.
+
+The project contains both frontend and backend functionality where users can:
+- Explore interior designs
+- Manage wishlist items
+- Access dynamic content
+
+The admin panel allows full website management including:
+- Image management
+- Dynamic content updates
+- Design management
+- User handling
+
+---
+
+## ✨ Features
+
+- User Registration & Login
+- Session-Based Authentication
+- Wishlist Functionality
+- Dynamic Interior Design Pages
+- Responsive Design
+- Admin Dashboard
+- Dynamic Content Management
+- Image Upload & Management
+- Category Filters
+- Protected Admin Access
+- MySQL Database Integration
+
+---
+
+## 🛠 Technologies Used
+
+### Frontend
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+
+### Backend
+- PHP
+
+### Database
+- MySQL
+
+### Hosting
+- InfinityFree
+
+---
+
+## 📂 Folder Structure
+
+```bash
 Full_project/
 │
 ├── backend/
 ├── admin_image/
 ├── image/
-├── index.php
-├── style.css
 └── other project files
-Admin Panel
 
-The project includes a dynamic admin panel where the administrator can:
+🔐 Authentication & Security
 
-Manage website content
-Upload and update images
-Control dynamic sections
-Modify interior design data
-Handle website functionality dynamically
-Authentication & Security
+The project uses PHP session management for:
 
-The application uses PHP session management for secure authentication and protected routes.
-
-Features include:
-
-Login authentication
-Session handling
-Access protection
+Secure login authentication
 User validation
-Responsive Design
+Protected routes
+Admin access control
 
-The website is fully responsive and optimized for:
-
-Desktop
-Tablet
-Mobile devices
-
-Bootstrap components and custom CSS are used to create a modern UI experience.
-
-Database Integration
-
-MySQL is used for storing:
-
-User data
-Wishlist items
-Dynamic content
-Images and design data
-Authentication details
-Installation
+💻 Installation
 Clone the repository
-git clone YOUR_REPOSITORY_LINK
-Move project folder into XAMPP htdocs
+git clone https://github.com/SoumyDubey11/Luminor-maison.git
+Move the project folder into XAMPP htdocs
 Import the SQL database into phpMyAdmin
-Start Apache & MySQL from XAMPP
+Start Apache and MySQL from XAMPP
 Open in browser:
-http://localhost/Full_project
+http://localhost/interior-design-project/Full_project/backend/user_login.php
+
+🚀 Future Improvements
+Advanced Search System
+Payment Integration
+Design Booking System
